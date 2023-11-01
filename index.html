@@ -4,36 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TatiDesign</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
     <div class="gridContainer">
       <div class="sidebar">
+        <div class="logo">
+          <img src="images/logoTatiDesign.png" alt="Fortuna Logo" />
+          <h3>Fortuna</h3>
+        </div>
         <ul>
-          <li class="logo">
-            <img src="images/logoTatiDesign.png" alt="Fortuna Logo" />
-            <h3>Fortuna</h3>
+          <li style="margin-bottom: 20px">
+            <img src="images/Person_small.png" alt="profile " /> Profile
           </li>
-          <li><img src="images/Person_small.png" alt="profile " /> Profile</li>
-          <li><img src="images/Group.png" alt="employees" /> Employees</li>
-          <li><img src="images/clients.png" alt="clients" /> Clients</li>
-          <li><img src="images/costs.png" alt="fixed costs" /> Fixed Costs</li>
+          <li style="margin-bottom: 20px">
+            <img src="images/Group.png" alt="employees" /> Employees
+          </li>
+          <li style="margin-bottom: 20px">
+            <img src="images/clients.png" alt="clients" /> Clients
+          </li>
+          <li style="margin-bottom: 20px">
+            <img src="images/costs.png" alt="fixed costs" /> Fixed Costs
+          </li>
         </ul>
       </div>
       <div class="logedInAs">
-        <div><h3>Tatiana Pinzón</h3></div>
-        <div><h4>TatiFinch Inc.</h4></div>
+        <h3>Tatiana Pinzón</h3>
+        <span>TatiFinch Inc.</span>
         <img src="images/logedIn.png" alt="who am i" />
       </div>
       <div class="navbar">
         <h2>Your Dashboard</h2>
-        <ul class="filter">
+        <div class="options">
+          <img class="filter" src="images/filter.png" alt="filter options" />
+          <img class="offer" src="images/newOffer.png" alt="create new offer" />
+        </div>
+        <!-- <ul class="filter">
           <li>Client</li>
           <li>Team</li>
           <li>Date</li>
           <li>Status</li>
           <span>$ Create a new offer</span>
         </ul>
+        -->
       </div>
       <div class="mainpart">
         <ul class="card">
@@ -44,66 +57,73 @@
             <span>Client</span><span>Interaction Leipzig e.V</span>
           </li>
           <li class="team"><span>Team</span> <span>Web Desing</span></li>
-          <li class="status"><span>Pending</span></li>
+          <li class="status">
+            <img src="images/pendingComplete.png" alt="status pending" />
+          </li>
         </ul>
 
-              <!-- wiederholung der 'cards'-->
-              <ul class="card">
-                <li class="number"><span>0012</span></li>
-                <li class="date"><span>29.09.23</span></li>
-                <li class="name">Home Page for Interaction Liepzig e.g</li>
-                <li class="client">
-                  <span>Client</span><span>Interaction Leipzig e.V</span>
-                </li>
-                <li class="team"><span>Team</span> <span>Web Desing</span></li>
-                <li class="status"><span>Pending</span></li>
-              </ul>
-              <ul class="card">
-                <li class="number"><span>0012</span></li>
-                <li class="date"><span>29.09.23</span></li>
-                <li class="name">Home Page for Interaction Liepzig e.g</li>
-                <li class="client">
-                  <span>Client</span><span>Interaction Leipzig e.V</span>
-                </li>
-                <li class="team"><span>Team</span> <span>Web Desing</span></li>
-                <li class="status"><span>Pending</span></li>
-              </ul>
-              <ul class="card">
-                <li class="number"><span>0012</span></li>
-                <li class="date"><span>29.09.23</span></li>
-                <li class="name">Home Page for Interaction Liepzig e.g</li>
-                <li class="client">
-                  <span>Client</span><span>Interaction Leipzig e.V</span>
-                </li>
-                <li class="team"><span>Team</span> <span>Web Desing</span></li>
-                <li class="status"><span>Pending</span></li>
-              </ul>
-              <ul class="card">
-                <li class="number"><span>0012</span></li>
-                <li class="date"><span>29.09.23</span></li>
-                <li class="name">Home Page for Interaction Liepzig e.g</li>
-                <li class="client">
-                  <span>Client</span><span>Interaction Leipzig e.V</span>
-                </li>
-                <li class="team"><span>Team</span> <span>Web Desing</span></li>
-                <li class="status"><span>Pending</span></li>
-              </ul>
-              <ul class="card">
-                <li class="number"><span>0012</span></li>
-                <li class="date"><span>29.09.23</span></li>
-                <li class="name">Home Page for Interaction Liepzig e.g</li>
-                <li class="client">
-                  <span>Client</span><span>Interaction Leipzig e.V</span>
-                </li>
-                <li class="team"><span>Team</span> <span>Web Desing</span></li>
-                <li class="status"><span>Pending</span></li>
-              </ul>
-      <!--Ende der Wied..-->
+        <!-- wiederholung der 'cards'-->
+        <ul class="card">
+          <li class="number"><span>0012</span></li>
+          <li class="date"><span>29.09.23</span></li>
+          <li class="name">Home Page for Interaction Liepzig e.g</li>
+          <li class="client">
+            <span>Client</span><span>Interaction Leipzig e.V</span>
+          </li>
+          <li class="team"><span>Team</span> <span>Web Desing</span></li>
+          <li class="status">
+            <img src="images/aproved.png" alt="status aproved" />
+          </li>
+        </ul>
+        <ul class="card">
+          <li class="number"><span>0012</span></li>
+          <li class="date"><span>29.09.23</span></li>
+          <li class="name">Home Page for Interaction Liepzig e.g</li>
+          <li class="client">
+            <span>Client</span><span>Interaction Leipzig e.V</span>
+          </li>
+          <li class="team"><span>Team</span> <span>Web Desing</span></li>
+          <li class="status">
+            <img src="images/continue.png" alt="status continue" />
+          </li>
+        </ul>
+        <ul class="card">
+          <li class="number"><span>0012</span></li>
+          <li class="date"><span>29.09.23</span></li>
+          <li class="name">Home Page for Interaction Liepzig e.g</li>
+          <li class="client">
+            <span>Client</span><span>Interaction Leipzig e.V</span>
+          </li>
+          <li class="team"><span>Team</span> <span>Web Desing</span></li>
+          <li class="status"><span>Pending</span></li>
+        </ul>
+        <ul class="card">
+          <li class="number"><span>0012</span></li>
+          <li class="date"><span>29.09.23</span></li>
+          <li class="name">Home Page for Interaction Liepzig e.g</li>
+          <li class="client">
+            <span>Client</span><span>Interaction Leipzig e.V</span>
+          </li>
+          <li class="team"><span>Team</span> <span>Web Desing</span></li>
+          <li class="status"><span>Pending</span></li>
+        </ul>
+        <ul class="card">
+          <li class="number"><span>0012</span></li>
+          <li class="date"><span>29.09.23</span></li>
+          <li class="name">Home Page for Interaction Liepzig e.g</li>
+          <li class="client">
+            <span>Client</span><span>Interaction Leipzig e.V</span>
+          </li>
+          <li class="team"><span>Team</span> <span>Web Desing</span></li>
+          <li class="status"><span>Pending</span></li>
+        </ul>
+        <!--Ende der Wied..-->
       </div>
 
+      <div class="page">
+        <img src="images/goToPage.png" alt="go to Page" />
+      </div>
 
-
-      <div class="page"></div>
       <div class="footer">
         <img src="images/Saly-22.png" alt="Happy Saly" />
         <ul class="footer__center">
@@ -119,8 +139,17 @@
         </ul>
 
         <ul class="footer__right">
-          <li><p>Impressum</p></li>
-          <li><p>Datenschutz</p></li>
+          <li>
+            <p>
+              Impressum<img src="images/Arrow downward.png" alt="Impressum" />
+            </p>
+          </li>
+          <li>
+            <p>
+              Datenschutz
+              <img src="images/Arrow downward.png" alt="Datenschutz" />
+            </p>
+          </li>
         </ul>
       </div>
     </div>
