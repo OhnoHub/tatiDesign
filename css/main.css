@@ -28,6 +28,12 @@ body {
   height: 1457px;
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43.58px;
+}
+
 h2 {
   font-size: 39px;
   font-weight: 700;
