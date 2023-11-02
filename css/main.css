@@ -19,12 +19,13 @@
   --secondary-400: rgba(105, 161, 255, 1);
   --secondary-600: rgba(62, 126, 232, 1);
   --secondary-900: rgba(29, 58, 107, 1);
+  --primaryGree-100: rgba(209, 250, 230, 1);
   --prmaryGreen-300: rgba(155, 245, 201, 1);
+  --pimaryGreen-500: rgba(105, 240, 174, 1);
   --backgroundMain: rgba(255, 255, 255, 1);
 }
 
 body {
-  width: 1728px;
   height: 1457px;
 }
 
@@ -84,10 +85,10 @@ h5 {
 .gridContainer .logedInAs {
   display: flex;
   flex-direction: column;
-  width: 249px;
+  width: 240px;
   height: 70px;
   margin-top: 55px;
-  margin-left: 1407px;
+  margin-left: auto;
   background-color: var(--backgroundMain);
   grid-column-start: 2;
   grid-column-end: 3;

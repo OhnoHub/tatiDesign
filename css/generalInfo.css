@@ -17,12 +17,25 @@
   gap: 25px;
 }
 
+.gridContainer .formular .area {
+  display: flex;
+  flex-direction: column;
+  width: 833px;
+  height: 198px;
+  gap: 25px;
+}
+
+.gridContainer textarea {
+  background-color: var(--secondary-50);
+  border-radius: 15px;
+  border: nozzzzzz;
+}
+
 .gridContainer .formular label {
   display: flex;
   flex-direction: column;
   font-size: 24px;
   font-weight: 600;
-  height: 99px;
   width: 405px;
   line-height: 32.69px;
   gap: 16px;
@@ -32,6 +45,7 @@
   background-color: var(--secondary-50);
   height: 50px;
   width: 405px;
-  border-radius: 12px;
+  border-radius: 15px;
   border-style: none;
+  margin-left: auto;
 }
