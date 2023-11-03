@@ -49,3 +49,23 @@
   border-style: none;
   margin-left: auto;
 }
+
+.area button {
+  background-color: var(--secondary-300);
+  height: 40px;
+  width: 95px;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  border: none;
+}
+
+.area button img{
+  height: 13.33px;
+  width: 13.33px;
+}

@@ -1,0 +1,64 @@
+/*====================================================================================
+        Timebeam
+=====================================================================================*/
+
+/*====================================================================================
+        fieldset
+=====================================================================================*/
+
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: none;
+  gap: 16px;
+  justify-content: center;
+}
+
+fieldset label {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+fieldset input {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(0, 0, 0, 1);
+}
+
+/*====================================================================================
+        Button
+=====================================================================================*/
+
+button {
+  display: inline-flex;
+  background-color: var(--primaryGreen-100);
+  width: 164px;
+  height: 35px;
+  border-radius: 15px;
+  gap: 15px;
+  padding: 1px 10px 1px 10px;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.69px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 321px;
+}
+
+/*====================================================================================
+        Mainpart (employee costs)
+=====================================================================================*/
+
+main .employees {
+  border-top: 2px solid black;
+  margin-top: 84px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+}

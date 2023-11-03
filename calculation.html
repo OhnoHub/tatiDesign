@@ -3,12 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>general Information</title>
+    <title>Coast Calculation</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/teamInfo.css" />
+    <link rel="stylesheet" href="css/calculation.css" />
   </head>
   <body>
     <div class="gridContainer">
-      <div class="footer">
+      <header>
+        <div class="logedInAs">
+          <h3>Tatiana Pinzón</h3>
+          <span>TatiFinch Inc.</span>
+          <img src="images/logedIn.png" alt="who am i" />
+        </div>
+
+        <nav>
+          <div class="timebeam">
+            <a href="generalInfo.html"
+              ><img src="images/einsOhne.png" alt="one"
+            /></a>
+            <img class="vector" src="images/Vector 4.png" alt="" />
+            <a href="teamInfo.html"
+              ><img src="images/zweiOhne.png" alt="two"
+            /></a>
+            <img class="vector" src="images/Vector 4.png" alt="" />
+            <a href="calculation.html"
+              ><img src="images/dreiMit.png" alt="three"
+            /></a>
+            <img class="vector" src="images/Vector 4.png" alt="" />
+            <a href="printOffer.html"
+              ><img src="images/vierOhne.png" alt="four"
+            /></a>
+          </div>
+        </nav>
+      </header>
+
+      <fieldset>
+        <legend><h1>Cost Calculation</h1></legend>
+        <button>Add New <img src="images/addNew.png" alt="" /></button>
+
+        <div>
+          <label for="fixed costs">Import fixed costs from Main Profile</label>
+          <input
+            type="checkbox"
+            id="fixed costs"
+            name="cost calculation"
+            value="fixed costs"
+          />
+        </div>
+
+        <div>
+          <label for="Umsastzsteuer">Add 19% Umsastzsteuer</label>
+          <input
+            type="checkbox"
+            id="Umsastzsteuer"
+            name="Cost Calculation"
+            value="Umsastzsteuer"
+          />
+        </div>
+      </fieldset>
+
+      <main>
+        <ul class="employees">
+          <li>Name</li>
+          <li>Department</li>
+          <li>Time</li>
+          <li>Total</li>
+        </ul>
+      </main>
+
+      <aside>
+        <div class="logo">
+          <img src="images/logoTatiDesign.png" alt="Fortuna Logo" />
+          <h3>Fortuna</h3>
+        </div>
+        <ul>
+          <li style="margin-bottom: 20px">
+            <img src="images/Person_small.png" alt="profile " />
+            <span>Project Information</span>
+          </li>
+          <li style="margin-bottom: 20px">
+            <img src="images/Group.png" alt="employees" /> <span>Team</span>
+          </li>
+          <li style="margin-bottom: 20px">
+            <img src="images/clients.png" alt="clients" />
+            <span>Cost Calculation</span>
+          </li>
+          <li style="margin-bottom: 20px">
+            <img src="images/costs.png" alt="fixed costs" />
+            <span>Print and Send</span>
+          </li>
+        </ul>
+
+        <div class="saveNexit">
+          <img src="images/saveButn.png" alt="save" />
+          <img src="images/exitBtn.png" alt="exit" />
+        </div>
+      </aside>
+
+      <footer>
         <img src="images/Saly-22.png" alt="Happy Saly" />
         <ul class="footer__center">
           <li><h5>Fortuna 2023</h5></li>
@@ -17,7 +110,8 @@
           </li>
           <li>
             <p>
-              <img src="images/Email.png" alt="Email adress" /> fortuna@mail.com
+              <img src="images/Email.png" alt="Email adress" />
+              fortuna@mail.com
             </p>
           </li>
         </ul>
@@ -30,12 +124,14 @@
           </li>
           <li>
             <p>
-              Datenschutz
-              <img src="images/Arrow downward.png" alt="Datenschutz" />
+              Datenschutz<img
+                src="images/Arrow downward.png"
+                alt="Datenschutz"
+              />
             </p>
           </li>
         </ul>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
