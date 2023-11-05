@@ -63,26 +63,42 @@ aside .saveNexit {
         mainpart
 ========================================================================*/
 
+.addEmployee{
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .gridContainer .select {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: space-around;
-}
-
-.gridContainer .select img {
-  width: 46px;
-  height: 46px;
-  margin-left: 12px;
+  margin-top: 67px;
+  gap: 28px;
 }
 
 .gridContainer .select select {
   display: flex;
   background-color: var(--secondary-100);
-  width: 1526px;
+  width: 70vw;
   height: 50px;
   border-radius: 15px;
+}
+
+.gridContainer .select button {
+  width: 46px;
+  height: 46px;
+}
+
+.nextPage{
+  margin-left: auto;
+}
+
+.nextPage button{
+  border: none;
 }
 
 /*================================================================================

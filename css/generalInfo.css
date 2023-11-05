@@ -63,9 +63,13 @@
   flex-wrap: wrap;
   margin-left: auto;
   border: none;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
 }
 
 .area button img{
-  height: 13.33px;
-  width: 13.33px;
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
 }

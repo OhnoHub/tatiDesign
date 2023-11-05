@@ -1,0 +1,59 @@
+/*=========================================================================================
+        main (Download Offer)
+==========================================================================================*/
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .download{
+    padding-top: 54px;
+    padding-bottom: 47px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+main .download button{
+    display: inline-flex;
+    background-color: var(--primaryGreen-100);
+    width: 164px;
+    height: 35px;
+    border-radius: 15px;
+    gap: 15px;
+    padding: 1px 10px 1px 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.69px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 321px;
+}
+
+main form label{
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+main form input{
+    width: 24px;
+    height: 24px;
+    border: 2px;
+}
+
+main form .finishBtn button{
+    background-color: var(--secondary-300);
+}   
+
+

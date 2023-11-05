@@ -1,12 +1,9 @@
 /*====================================================================================
-        Timebeam
-=====================================================================================*/
-
-/*====================================================================================
         fieldset
 =====================================================================================*/
 
 fieldset {
+  margin-top: 54px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -30,7 +27,7 @@ fieldset input {
         Button
 =====================================================================================*/
 
-button {
+fieldset button {
   display: inline-flex;
   background-color: var(--primaryGreen-100);
   width: 164px;
@@ -55,6 +52,7 @@ button {
 main .employees {
   border-top: 2px solid black;
   margin-top: 84px;
+  padding-top: 56px;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -62,3 +60,4 @@ main .employees {
   font-weight: 700;
   line-height: 30px;
 }
+

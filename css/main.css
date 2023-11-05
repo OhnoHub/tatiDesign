@@ -23,6 +23,10 @@
   --prmaryGreen-300: rgba(155, 245, 201, 1);
   --pimaryGreen-500: rgba(105, 240, 174, 1);
   --backgroundMain: rgba(255, 255, 255, 1);
+  --pending: rgba(211, 204, 255, 1);
+  --aproved: rgba(195, 255, 167, 1);
+  --continue: rgba(220, 220, 220, 1);
+
 }
 
 body {
@@ -200,7 +204,17 @@ h5 {
 }
 
 .gridContainer .navbar .offer {
-  align-content: end;
+  display: flex;
+  align-content: flex-end;
+  width: 299px;
+  height: 53px;
+  top: 245px;
+  left: 1168px;
+  padding: 10px, 15px, 10px, 15px;
+  border-radius: 15px;
+  gap: 20px;
+  background-color: var(--prmaryGreen-300);
+  border: none;
 }
 
 .gridContainer .navbar span {
@@ -234,12 +248,17 @@ h5 {
 
 .gridContainer .mainpart .card .number {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  flex-direction: row;
-  margin-right: auto;
   width: 51px;
   height: 30px;
+  margin: 17px;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .gridContainer .mainpart .card .date {
@@ -252,10 +271,13 @@ h5 {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 88px;
-  height: 30px;
+  margin-top: 17px;
+  width: 111px;
+  height: 41px;
   background-color: var(--secondary-300);
   border-radius: 8px;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .gridContainer .mainpart .card .name {
@@ -264,21 +286,147 @@ h5 {
   grid-row: 2 / 3;
   align-content: center;
   justify-content: center;
+  margin-left: 17px;
+  font-size: 22px;
+  font-weight: 700;
+  width: 345px;
+  height: 60px;
+  gap: 10px;
 }
 
 .gridContainer .mainpart .card .client {
+  display: flex;
   grid-column: 1 / 4;
   grid-row: 3 / 4;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 17px;
+  gap: 50px;
 }
+  
 
 .gridContainer .mainpart .card .team {
+  display: flex;
   grid-column: 1 / 4;
   grid-row: 4 / 5;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 17px;
+  gap: 50px;
 }
 
 .gridContainer .mainpart .card .status {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  font-size: 22px;
+  font-weight: 500;
+  width: 123px;
+  height: 40px;
+  margin-left: 17px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: var(--pending);
+  border-radius: 8px;
+}
+
+.gridContainer .mainpart .card .status_pending {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  font-size: 22px;
+  font-weight: 500;
+  width: 123px;
+  height: 40px;
+  margin-left: 17px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: var(--pending);
+  border-radius: 8px;
+  gap: 5px;
+}
+
+.gridContainer .mainpart .card .status_pending img{
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.gridContainer .mainpart .card .status_aproved {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  font-size: 22px;
+  font-weight: 500;
+  width: 123px;
+  height: 40px;
+  margin-left: 17px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: var(--aproved);
+  border-radius: 8px;
+  gap: 5px;
+}
+
+.gridContainer .mainpart .card .status_aproved img{
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.gridContainer .mainpart .card .status_continue {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  font-size: 22px;
+  font-weight: 500;
+  width: 123px;
+  height: 40px;
+  margin-left: 17px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: var(--continue);
+  border-radius: 8px;
+  gap: 5px;
+}
+
+.gridContainer .mainpart .card .status_continue img{
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.gridContainer .mainpart .card .status span {
   grid-column: 1 / 4;
   grid-row: 5 / 6;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 5px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.gridContainer .mainpart .card .delete button{
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  border: none;
+  margin-top:  246px;
 }
 
 /*================================================================================
@@ -299,7 +447,6 @@ h5 {
 
 .footer {
   background-color: var(--secondary-400);
-  width: 100vw;
   display: flex;
   justify-content: space-around;
 }
